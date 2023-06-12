@@ -21,8 +21,6 @@ func (s BookingStatus) String() (string, error) {
 		return "PaymentCompleted", nil
 	case RideCompleted:
 		return "RideCompleted", nil
-
 	}
-
 	return "Unknown Status", errors.New("unknown status")
 }

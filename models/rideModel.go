@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-// Booking Structure
+// RideRequest Booking Structure
 type RideRequest struct {
 	gorm.Model
 
