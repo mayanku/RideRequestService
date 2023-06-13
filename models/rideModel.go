@@ -10,8 +10,8 @@ import (
 type RideRequest struct {
 	gorm.Model
 
-	BookingId            string                       `json:"booking_id"`
-	UserId               string                       `json:"user_id"`
+	BookingID            string                       `json:"booking_id"`
+	UserID               string                       `json:"user_id"`
 	BookingDate          string                       `json:"booking_date"`
 	RideDate             string                       `json:"ride_date"`
 	SourceAddress        string                       `json:"source_address"`

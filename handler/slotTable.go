@@ -32,6 +32,7 @@ func SlotTable(c *gin.Context) {
 		// Handle error when the table does not return anything
 	}
 
+	fmt.Println(result)
 	fmt.Println(slottable) // for verifying the slot table output
 	//fmt.Println(slottable)
 

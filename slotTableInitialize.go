@@ -26,5 +26,6 @@ func main() {
 
 	// Migrate the schema
 	db.AutoMigrate(&models.SlotTable{})
+	db.AutoMigrate(&models.RideRequest{})
 
 }
